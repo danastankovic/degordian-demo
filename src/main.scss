@@ -1,3 +1,12 @@
 $primary: teal;
 $danger: purple;
 @import "~bootstrap/scss/bootstrap";
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1440px;
+    }
+}
+
+
